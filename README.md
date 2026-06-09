@@ -1,10 +1,10 @@
-# @rafaeldasilvadeveloper/temp-mail-tester
+# @rafaelsilvadeveloper/temp-mail-tester
 
 A strongly typed, zero-dependency TypeScript client for temporary email inboxes, ideal for automated E2E tests.
 
-[![NPM Version](https://img.shields.io/npm/v/@rafaeldasilvadeveloper/temp-mail-tester.svg?style=flat-square)](https://www.npmjs.com/package/@rafaeldasilvadeveloper/temp-mail-tester)
+[![NPM Version](https://img.shields.io/npm/v/@rafaelsilvadeveloper/temp-mail-tester.svg?style=flat-square)](https://www.npmjs.com/package/@rafaelsilvadeveloper/temp-mail-tester)
 [![Discord Support](https://img.shields.io/discord/1111111111?color=7289da&label=Discord&logo=discord&style=flat-square)](https://discord.gg/7Fw7snafYS)
-[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-blueviolet.svg?style=flat-square)](https://www.npmjs.com/package/@rafaeldasilvadeveloper/temp-mail-tester)
+[![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-blueviolet.svg?style=flat-square)](https://www.npmjs.com/package/@rafaelsilvadeveloper/temp-mail-tester)
 
 ## Features
 
@@ -16,13 +16,13 @@ A strongly typed, zero-dependency TypeScript client for temporary email inboxes,
 ## Installation
 
 ```bash
-npm install @rafaeldasilvadeveloper/temp-mail-tester
+npm install @rafaelsilvadeveloper/temp-mail-tester
 ```
 
 ## Getting Started
 
 ```typescript
-import { TempMailClient } from '@rafaeldasilvadeveloper/temp-mail-tester';
+import { TempMailClient } from '@rafaelsilvadeveloper/temp-mail-tester';
 
 const client = new TempMailClient();
 
@@ -43,7 +43,7 @@ run();
 Use `waitForEmail` to poll the temporary inbox until a specific email (e.g., matching a subject or containing a code) arrives:
 
 ```typescript
-import { TempMailClient } from '@rafaeldasilvadeveloper/temp-mail-tester';
+import { TempMailClient } from '@rafaelsilvadeveloper/temp-mail-tester';
 
 const client = new TempMailClient();
 

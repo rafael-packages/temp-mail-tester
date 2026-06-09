@@ -1,5 +1,5 @@
 {
-  "name": "@rafaeldasilvadeveloper/temp-mail-tester",
+  "name": "@rafaelsilvadeveloper/temp-mail-tester",
   "version": "1.0.1",
   "description": "A strongly typed, zero-dependency TypeScript client for temporary email inboxes, ideal for automated E2E tests.",
   "repository": {
